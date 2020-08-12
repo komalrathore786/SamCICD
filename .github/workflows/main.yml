@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build React App
-        run: sudo pip install awscli && sudo pip install awssamcli
+        run: pip3 install awscli --upgrade && pip3 install aws-sam-cli --upgrade
           
     
