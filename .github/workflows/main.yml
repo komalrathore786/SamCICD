@@ -15,7 +15,7 @@ jobs:
       - name: build the sam project
         run: sam build
       - name: Install the pip
-        run: pip3 install awscli --upgrade --user
+        run: pip install awscli 
       
    
         
