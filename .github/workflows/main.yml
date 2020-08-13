@@ -16,6 +16,8 @@ jobs:
         run: sam build
       - name: Install the pip
         run: pip install awscli 
+      - name: configure the aws
+        run: aws configure --profile alive-dev-komal
       
    
         
